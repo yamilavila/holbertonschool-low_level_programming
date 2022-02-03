@@ -1,1 +1,0 @@
-~~Starting Point as software engineer~~
