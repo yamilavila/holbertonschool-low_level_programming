@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
-*main- int
-*return 0
+*main- char or int
+*return: 0
 */
 int main(void)
+
 {
 
-puts("\"Programming is like building a multinlingual puzzle");
-return (0);
+  puts("\"Programming is like building a multinlingual puzzle");
+  return (0);
 
 }
