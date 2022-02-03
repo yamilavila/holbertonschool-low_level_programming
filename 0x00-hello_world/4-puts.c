@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main- char or int
+*main - int or char 
 *return: 0
 */
 int main(void)
