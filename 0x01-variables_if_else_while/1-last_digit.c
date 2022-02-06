@@ -15,7 +15,7 @@ n = rand() - RAND_MAX / 2;
 printf("Las digit of %i", n);
 
 if (n % 10 > 5)
-{
+
 printf("is %i and is greater than 5\n", n % 10);
 }
 else if (n % 10 == 0)
