@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- *main- greater>, less<, equal==
+ *main- Entry Point
  *
- *Return: 0
+ *Return: Always 0 (Scucces)
  */
 int main(void)
 {
@@ -18,15 +17,15 @@ int main(void)
 
 	if (n % 10 > 5)
 	{
-		printf("is %i and is greater than 5\n", n % 10);
+		printf("is %i and is greater than 5\n", n);
 	}
 	else if (n % 10 == 0)
 	{
-		printf("is %i and is 0\n", n % 0);
+		printf("is %i and is 0\n", n);
 	}
 	else if ((n % 10) < 6 && n % 10 != 0)
 	{
-		printf("is %i and is less than 6 and not 0\n", n % 10);
+		printf("is %i and is less than 6 and not 0\n", n);
 	}
 	return (0);
 }
