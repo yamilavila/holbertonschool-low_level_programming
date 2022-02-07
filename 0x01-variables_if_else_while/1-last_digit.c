@@ -3,7 +3,6 @@
 #include <time.h>
 /**
  *main- Entry Point
- *
  *Return: Always 0 (Scucces)
  */
 int main(void)
