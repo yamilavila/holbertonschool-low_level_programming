@@ -2,16 +2,15 @@
 #include <stdlib.h>
 /**
  *main - putchar a-z
- *REturn: 0
+ *Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char  a;
 
-	while (c != 'z')
+	for (a = 'a' ; a <= 'z' ; a++)
 	{
-		putchar(c);
-		++c;
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
