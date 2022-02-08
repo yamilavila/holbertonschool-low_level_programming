@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prototype: print_alphabet- lowercase
+ * print_alphabet- lowercase
  * Desription: ANSII table 97-122
  * Return: Always 0.
  */
