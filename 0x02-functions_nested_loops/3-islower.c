@@ -1,7 +1,8 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * islower- check for lower case
+ * _islower- check for lower case
+ * @c: int
  * Return: 0
  */
 
