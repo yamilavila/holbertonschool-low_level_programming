@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - print numbers 0 -14
- * @c: int
  * Return: 0
  */
 void more_numbers(void)
