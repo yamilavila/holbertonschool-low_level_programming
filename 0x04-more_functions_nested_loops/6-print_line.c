@@ -5,9 +5,9 @@
  */
 void print_line(int n)
 {
-	int d;
+	int e;
 
-	for (d = '0'; d < n; d++)
+	for (e = '0'; e < n; e++)
 		_putchar('_');
 	_putchar('\n');
 }
