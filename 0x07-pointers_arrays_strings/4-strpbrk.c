@@ -8,12 +8,12 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int a = 0;
-	int b = 0;
+	int a;
+	int b;
 
-	for (; s[a]; a++)
+	for (a = 0; s[a]; a++)
 	{
-		for (; accept[b]; b++)
+		for (b = 0; accept[b]; b++)
 		{
 			if (s[a] == accept[b])
 				return (s + a);
