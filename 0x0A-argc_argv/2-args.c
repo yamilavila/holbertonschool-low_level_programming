@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - print all arguments that receives
+ * @argv: vector
+ * @argc: count
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int a;
+
+	for (a = 0; a < argc; a++)
+	{
+		printf("%s\n", argv[a]);
+	}
+	return (0);
+}
