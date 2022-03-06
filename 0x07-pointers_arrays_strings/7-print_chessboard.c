@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * print_chessboard - obvio print a chessboard
+ * print_chessboard - print a chessboard
  * @a: array
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int x;
-	int b;
+	int b, c;
 
-	for (x = 0; x < 8; a++)
+	for (b = 0; b < 8; b++)
 	{
-		for (b = 0; b < 8; b++)
-		_putchar(a[x][b]);
+		for (c = 0; c < 8; c++)
+			_putchar(a[b][c]);
 		_putchar('\n');
 	}
 }
-
