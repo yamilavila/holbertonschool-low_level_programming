@@ -21,7 +21,7 @@ void times_table(void)
 			}
 			z = a * b;
 			_putchar(',');
-			_putchar(z + 48);
+			_putchar(' ');
 			if (z >= 10)
 			{
 				_putchar(z / 10 + 48);
