@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * jack_bauer- give me the time
- * @c: time
  * Return: 0
  */
+
 void jack_bauer(void)
 {
 	int hour;
