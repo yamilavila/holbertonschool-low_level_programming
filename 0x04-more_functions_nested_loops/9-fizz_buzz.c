@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Print 1 - 100 but for 3 print Fizz/ 5 print Buzz
@@ -9,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 100; n++)
+	for (n = 1; n < 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
 			printf("FizzBuzz");
