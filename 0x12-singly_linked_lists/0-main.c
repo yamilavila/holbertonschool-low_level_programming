@@ -8,7 +8,7 @@
  *
  * Return: Always 0.
  */
-it main(void)
+int main(void)
 {
     list_t *head;
     list_t *new;
