@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	int a;
-	int b;
+	int a = 0;
+	int b = 0;
 
-	for (a = 0; a < 100; a++)
+	for (; a < 100; a++)
 	{
-		for (b = 0; b < 100; b++)
+		for (; b < 100; b++)
 		{
 			if (a < b && a != b)
 			{
