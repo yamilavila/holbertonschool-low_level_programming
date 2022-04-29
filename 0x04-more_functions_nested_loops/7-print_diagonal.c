@@ -3,7 +3,7 @@
  * print_diagonal- print a diagonal line
  * @n: digit
  * Return: success
- */
+*/
 
 void print_diagonal(int n)
 {
@@ -18,6 +18,7 @@ void print_diagonal(int n)
 				if (y != 1)
 					_putchar(' ');
 				if (y == x)
+					_putchar(' ');
 				{
 					_putchar('\\');
 					_putchar('\n');
@@ -28,3 +29,4 @@ void print_diagonal(int n)
 	else
 		_putchar('\n');
 }
+
