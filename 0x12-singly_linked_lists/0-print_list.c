@@ -24,5 +24,5 @@ size_t print_list(const list_t *h)
 		nod++;
 	}
 
-	return (nod);
+	return (nd);
 }
