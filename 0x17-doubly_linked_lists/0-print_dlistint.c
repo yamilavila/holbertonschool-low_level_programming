@@ -1,5 +1,5 @@
 #include "lists.h"
-/**
+/*
  * print_dlistint - print all elements of a doubly list
  * @h: head node
  * Return: size of the list
