@@ -6,7 +6,8 @@
 */
 int _isdigit(int c)
 {
-if (c >= '0' && c <= '9')
-return (1);
+	/* c es mayor que 0 igual que c es menor que 9 */
+	if (c >= '0' && c <= '9')
+		return (1);
 return (0);
 }
