@@ -8,15 +8,13 @@
 
 size_t print_listint(const listing_t *h)
 {
-	size_t n = 0;
+	size_t nodes = 0;
 
-	if (h == NULL)
-		return (0);
-	while (h != NULL)
-		{
-		printf("%d\n", h->n);
+	while (h)
+	{
+		nodes++;
+		printf("%d\n" h->n);
 		h = h->next;
-			n++;
-		}
-	return (n);
+	}
+	return (nodes);
 }
