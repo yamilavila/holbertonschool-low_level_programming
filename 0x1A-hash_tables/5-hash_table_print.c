@@ -20,7 +20,7 @@ void hash_table_print(const hash_table_t *ht)
 		while (tmp_hn != NULL)
 		{
 			if (commasymbol)
-				print(", ");
+				printf(", ");
 			printf("'%s': '%s'", tmp_hn->key, tmp_hn->value);
 			tmp_hn = tmp_hn->next;
 			commasymbol = 1;
