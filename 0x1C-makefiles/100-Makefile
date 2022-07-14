@@ -1,10 +1,10 @@
-#Task 6.make -f 100-Makefile
+# Make -f 100-Makefile
 
 .PHONY: all clean oclean fclean re
 
 CC = gcc
 SRC = main.c school.c
-OBJ = $(SRC:.C=.O)
+OBJ = $(SRC:.c=.O)
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
 all: m.h $(OBJ)
