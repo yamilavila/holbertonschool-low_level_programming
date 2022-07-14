@@ -7,6 +7,7 @@ SRC = main.c school.c
 OBJ = $(SRC:.c=.O)
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
+
 all: m.h $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
