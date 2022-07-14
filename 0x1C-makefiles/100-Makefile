@@ -1,5 +1,3 @@
-# Make -f 100-Makefile
-
 .PHONY: all clean oclean fclean re
 
 CC = gcc
