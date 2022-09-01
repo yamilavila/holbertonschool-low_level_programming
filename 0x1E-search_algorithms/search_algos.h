@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
+#include <math.h>
 
 /* 0.Linear search*/
 int linear_search(int *array, size_t, int value);
